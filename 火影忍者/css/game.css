@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+
+}
+.clearfix:after{
+    clear: both;
+}
+body{
+    height: 2400px;
+    /* background-image: url(../image/角斗场.jpg) ; */
+   background-size: 100%;
+    /* opacity: 0.5; */
+    background-color: #f3f5f7;
+}
+.wrapper{
+    width: 1200px;
+    height: 3000x; 
+    margin: 0, auto;
+}
+.all{
+    background-image: url(../image/角斗场.jpg);
+    position: absolute;
+    left: 40px;
+   
+    width: 1400px;
+    height: 1000x;
+ 
+    /* background-color: blue; */
+}
+.head{
+    position: relative;
+    height: 80px;
+    /* background-color: pink; */
+    margin: 30px auto;
+    box-shadow: 10px 10px 10px 10px ;
+    }
+.head h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+    font-style: oblique;
+    margin-left: 400px;
+    font-size: 110px;
+}
+
+.head  h2{
+    position: absolute;
+    left: 500px;
+    margin: 0 auto;
+}
+.lowdown
+{
+    margin: 100px auto;
+    width: 1000px;
+    height: 30px;
+    /* background-color: #ffffffa0; */
+}
+.lowdown a{
+    font-size: 50px;
+    margin-left: 42%;
+}
+.lowdown a:hover{
+    color: blue;
+}
+.all .content{
+    margin: 200px auto;
+    width: 1000px;
+    height: 200px;
+    /* background-color: red */
+}
+.content .left{
+    float: left;
+    width: 200px;
+    height: 200px;
+    /* background-color: green */
+}
+.content .left img{
+    width: 200px;
+    height: 200px;
+}
+.content .right{
+    float: right;
+    width: 700px;
+    height: 200px;
+    /* background-color: pink */
+}
+.content .right .cen h3{
+    font-size: 32px;
+}
+.content .right .up{
+     margin-left: 5%;
+}
+.content .right .down .le{
+    float: left;
+    font-size: 20px;
+
+}
+.content .right .down .ri{
+    float:right;
+    font-size: 20px;
+}
+.tex-all{
+    margin: 300px auto;
+    width: 1000px;
+    height: 400px;
+    background-color: #ffffff6f;
+}
+ .tex-all .tex .title{
+   
+    font-size: 30px;
+    line-height: 35px;
+   color:red;
+}
+.tex-all .tex .de{
+   
+    font-size: 15px;
+    line-height: 10px;
+   color:rgb(223, 54, 125);
+}
+.tex-all .mv{
+    margin: 20px auto;
+    width: 1000px;
+    height: 300px;
+    background-color: pink;
+}
+ .mv .la{
+    width: 1000px;
+ }

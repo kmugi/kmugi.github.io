@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:before, .clearfix:after{
+    content: "";
+    display: table;
+
+}
+.clearfix:after{
+    clear: both;
+}
+body{
+    background-color: #f3f5f7;
+}
+.all{
+    margin: 0 auto;
+    width: 1400px;
+    height: 1400px;
+   
+}
+.all .shouye{
+    float:right;
+}
+.all a:hover{
+color: blue;
+}
+.all h1{
+    margin-left: 500px;
+}
+.buy{
+    margin: 50px auto;
+    width: 1000px;
+    height: 40px;
+  
+}
+.buy a{
+    font-size: 20px;
+}
+.buy a:hover{
+    color: blue;
+}
+.cen{
+    width: 1300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+.cen ul{
+    width: 200%;
+    animation-name: move;
+    /* 名称 */
+    animation-duration: 7s;
+    /* 时间 */
+    animation-iteration-count: infinite;
+    /* 无限循环 */
+    animation-timing-function: linear;
+    /* 设置时间函数 */
+}
+.cen .sub{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+}
+.cen li {
+    float: left;
+    width: 205px;
+   
+}
+.cen li img {
+    height: 300px;
+    
+    width: 100%;
+}
+
+/* 动画效果 */
+@keyframes move{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1200px);
+    }
+}
+.cen li :nth-child(1){
+    height: 280px;
+    width: 200px;
+}
+
+
+/* 底部 */
+.foot{
+    margin: 20px 50px;
+    width: 1300px;
+    height: 400px;
+    background-color: rgb(225, 225, 236);
+}
+.foot .left{
+    width: 600px;
+    height: 400px;
+    float: left;
+    /* background-color: red; */
+}
+ .hot{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(205, 98, 62);
+    font-size: 30px;  
+}
+.foot .left .hot1{
+    float:left;
+width: 400px;
+height: 400px;
+}
+.foot .left p{
+    margin-top: 15px;
+   
+    margin-right: 20px;
+    
+    text-indent: 2em;
+    font-size: 16px;
+    color:rgb(62, 62, 104)4 ;
+
+}
+
+.foot .right{
+    width: 650px;
+    height: 400px;
+    float: right;
+    /* background-color: rgb(182, 29, 202); */
+}
+.foot .right img{
+    float: left;
+    width: 430px;
+    height: 400px;
+
+}
+
+.foot .right p{
+    margin-top: 15px;
+    text-indent: 2em;
+    font-size: 16px;
+    color:rgb(62, 62, 104)4 ;
+
+}
+.footer h4
+{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.footer h5
+{
+    margin-left: 15px;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1000px;
+    height: 200px;
+   
+}
+
+.footer p{
+    font-size: 7px;
+    color: #766464;
+}
+.footer .last p{
+    margin-top: 7px;
+}
